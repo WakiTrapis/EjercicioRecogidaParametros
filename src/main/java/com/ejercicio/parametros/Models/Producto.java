@@ -7,5 +7,11 @@ public class Producto {
 
     private Long precio;
 
+    public String getNombre() {
+        return nombre;
+    }
 
+    public Long getPrecio() {
+        return precio;
+    }
 }
